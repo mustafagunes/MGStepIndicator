@@ -12,6 +12,7 @@
 		D91C2B2B233106BC00A455FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91C2B29233106BC00A455FB /* Main.storyboard */; };
 		D91C2B2D233106BD00A455FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91C2B2C233106BD00A455FB /* Assets.xcassets */; };
 		D91C2B30233106BD00A455FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91C2B2E233106BD00A455FB /* LaunchScreen.storyboard */; };
+		D91C2B3C233107D200A455FB /* MGStepIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C2B3B233107D200A455FB /* MGStepIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D91C2B2C233106BD00A455FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D91C2B2F233106BD00A455FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D91C2B31233106BD00A455FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91C2B3B233107D200A455FB /* MGStepIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGStepIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,24 @@
 		D91C2B24233106BC00A455FB /* MGStepIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				D91C2B372331073200A455FB /* Sources */,
+				D91C2B382331074000A455FB /* Other */,
+			);
+			path = MGStepIndicator;
+			sourceTree = "<group>";
+		};
+		D91C2B372331073200A455FB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D91C2B3A2331076700A455FB /* View */,
+				D91C2B392331075B00A455FB /* IBInspectables */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D91C2B382331074000A455FB /* Other */ = {
+			isa = PBXGroup;
+			children = (
 				D91C2B25233106BC00A455FB /* AppDelegate.swift */,
 				D91C2B27233106BC00A455FB /* ViewController.swift */,
 				D91C2B29233106BC00A455FB /* Main.storyboard */,
@@ -61,7 +81,22 @@
 				D91C2B2E233106BD00A455FB /* LaunchScreen.storyboard */,
 				D91C2B31233106BD00A455FB /* Info.plist */,
 			);
-			path = MGStepIndicator;
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D91C2B392331075B00A455FB /* IBInspectables */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IBInspectables;
+			sourceTree = "<group>";
+		};
+		D91C2B3A2331076700A455FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D91C2B3B233107D200A455FB /* MGStepIndicatorView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D91C2B28233106BC00A455FB /* ViewController.swift in Sources */,
+				D91C2B3C233107D200A455FB /* MGStepIndicatorView.swift in Sources */,
 				D91C2B26233106BC00A455FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DVHX5WRRH;
-				INFOPLIST_FILE = MGStepIndicator/Info.plist;
+				INFOPLIST_FILE = MGStepIndicator/Other/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8DVHX5WRRH;
-				INFOPLIST_FILE = MGStepIndicator/Info.plist;
+				INFOPLIST_FILE = MGStepIndicator/Other/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
